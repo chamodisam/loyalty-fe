@@ -11,8 +11,14 @@ const EarnPage = () => {
     setMessage(''); // Clear any previous messages
 
     try {
-      // Make the API request to the backend to earn points
-      const response = await axios.post('http://localhost:8080/api/earn'); // Update with your actual backend endpoint
+
+        const requestBody = {
+            account_id: "7c311d00-ff34-42c7-87ce-3c05680ed2fb",
+            points: "10",
+          };
+    
+          // Make the API request to the backend to earn points
+          const response = await axios.post('http://localhost:8080/api/earn', requestBody);
 
       if (response.status === 200) {
         // Successfully earned points
