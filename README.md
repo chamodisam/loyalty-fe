@@ -54,9 +54,8 @@ Here's an overview of the main folders and files in the project:
   /components          # Reusable UI components
   /contexts            # Contexts for global state (like authentication)
   /pages               # Components for individual pages (SignUp, Earn, Redeem, History)
-  /services            # Functions for interacting with the backend API
   /App.jsx             # Main component that sets up routing and layout
-  /vite.config.js      # Vite configuration file
+vite.config.js      # Vite configuration file
 ```
 ### 6. Key Features
 Google OAuth: Users can log in via Google to authenticate their identity.
