@@ -10,6 +10,7 @@ Before running the frontend, ensure you have the following:
    - [Download Node.js](https://nodejs.org/) if you haven't installed it yet.
    
 2. **Backend Service Running**: The backend service must be running locally or on a server. It provides the necessary endpoints for earning, redeeming, and checking loyalty points.
+[loyalty-be repo](https://github.com/chamodisam/loyalty-be)
 
 ## Setup Instructions
 
